@@ -9,14 +9,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding-left: 30px;
-  padding-right: 30px;
-}
+
 
 .box {
   width: 300px;
@@ -173,6 +166,15 @@ h6 {
 
 .container,
 .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.skillcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   padding-left: 30px;
   padding-right: 30px;
 }
