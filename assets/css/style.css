@@ -19,6 +19,14 @@
   text-align: center;
 }
 
+.box2 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #f5f8fd;
+  margin: 10px;
+  text-align: center;
+}
+
 .box img {
   width: 60px;
   height: 60px;
@@ -29,7 +37,7 @@
 
 .box h2 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 20px;
   color: #173b6c;
 }
 
@@ -38,6 +46,28 @@
 }
 
 .box i {
+  font-size: 30px;
+}
+
+.box2 img {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px 5px;
+}
+
+.box2 h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #173b6c;
+}
+
+.box2 p {
+  font-size: 16px;
+}
+
+.box2 i {
   font-size: 30px;
 }
 
@@ -177,6 +207,7 @@ h6 {
   align-items: center;
   padding-left: 30px;
   padding-right: 30px;
+  padding-top: 30px;
 }
 
 @media (max-width: 1199px) {
@@ -373,7 +404,7 @@ section {
 .section-title h3 {
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   /* padding-bottom: 20px; */
   position: relative;
   color: #173b6c;
