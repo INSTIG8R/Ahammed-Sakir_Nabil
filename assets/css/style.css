@@ -370,6 +370,16 @@ section {
   color: #173b6c;
 }
 
+.section-title h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  /* padding-bottom: 20px; */
+  position: relative;
+  color: #173b6c;
+  text-align: center
+}
+
 .section-title h2::after {
   content: "";
   position: absolute;
